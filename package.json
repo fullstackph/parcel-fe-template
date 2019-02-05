@@ -1,7 +1,7 @@
 {
   "name": "parcel-template",
   "version": "1.0.0",
-  "main": "index.html",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/*.html",
