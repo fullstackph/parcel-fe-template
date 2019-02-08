@@ -14,10 +14,10 @@
 * yarn package manager
 
 # Getting Started
-* install dependencies with `yarn install`
-* run local dev with `yarn dev`
-  * default localhost port at `http://localhost:1234`
-* build prod files with `yarn build`
+* `yarn install` - install dependencies with 
+* `yarn dev` - run development localhost server
+* `yarn build` - build prod files
+* `yarn deploy` - deploy to gh-pages
 
 # Changelog
 * 1.0.0
