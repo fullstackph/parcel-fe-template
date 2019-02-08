@@ -8,7 +8,6 @@
     "dev:share": "parcel watch src/*.html --public-url ./ & npm run browsersync",
     "prebuild": "rm -rf dist",
     "build": "parcel build src/*.html --public-url ./",
-    "build:deploy": "parcel build src/*.html",
     "browsersync": "node browsersync.js",
     "deploy": "./deploy.sh"
   },

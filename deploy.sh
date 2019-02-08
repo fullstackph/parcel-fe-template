@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yarn build:deploy
+yarn build
 git commit -am "Save uncommited changes (WIP)"
 git branch --delete --force gh-pages
 git checkout --orphan gh-pages
