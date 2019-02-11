@@ -3,10 +3,14 @@
 
 # Getting Started
 * `yarn install` - install dependencies with 
-* `yarn dev` - run development localhost server
+* `yarn start` - run only once at the very first instance to test initial build
+* `yarn dev` - run development localhost server with browsersync
 * `yarn build` - build prod files
 * `yarn deploy` - deploy to gh-pages
-* Windows users might need to run `yarn start` prior `yarn dev` to generate an initial build to avoid the `Cannot GET /` error when trying to initiate local browsersync.
+
+# Troubleshooting
+* **Error: `Cannot GET /`**
+  * run `yarn start` before `yarn dev`
 
 # Generic Parcel Template
 * Uses Sass and the 7-1 Pattern by Hugo Giraudel.
