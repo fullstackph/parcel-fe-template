@@ -4,8 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "dev:share": "parcel watch src/*.html --public-url ./ & npm run browsersync",
+    "dev": "parcel watch src/*.html --public-url ./ & npm run browsersync",
     "prebuild": "rm -rf dist",
     "build": "parcel build src/*.html --public-url ./",
     "browsersync": "node browsersync.js",
