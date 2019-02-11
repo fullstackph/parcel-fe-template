@@ -1,9 +1,9 @@
 # Prerequisites
-* yarn package manager
+* [Install `yarn` package manager](https://yarnpkg.com/lang/en/docs/install/)
 
 # Getting Started
-* `yarn install` - install dependencies with 
-* `yarn start` - run only once at the very first instance to test initial build
+* `yarn install` - install package dependencies
+* `yarn start` - run only once at the very first instance to test/create initial build
 * `yarn dev` - run development localhost server with browsersync
 * `yarn build` - build prod files
 * `yarn deploy` - deploy to gh-pages
@@ -12,7 +12,7 @@
 * **Error: `Cannot GET /`**
   * run `yarn start` before `yarn dev`
 
-# Generic Parcel Template
+# Generic [Parcel](https://parceljs.org/) Template
 * Uses Sass and the 7-1 Pattern by Hugo Giraudel.
 * Uses the JavaScript Revealing Module Pattern.
 * Disables responsiveness on IE9 and below.
@@ -25,5 +25,9 @@
 * Uses Parcel to bundle, minify, and optimize HTML, CSS and JS.
 
 # Changelog
-* 1.0.0
-  * initial commit
+### 1.1.0
+* Add deploy to `gh-pages` script
+* Windows support with concurrent scripts
+
+### 1.0.0
+* initial commit
