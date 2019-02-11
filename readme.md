@@ -1,3 +1,13 @@
+# Prerequisites
+* yarn package manager
+
+# Getting Started
+* `yarn install` - install dependencies with 
+* `yarn dev` - run development localhost server
+* `yarn build` - build prod files
+* `yarn deploy` - deploy to gh-pages
+* Windows users might need to run `yarn start` prior `yarn dev` to generate an initial build to avoid the `Cannot GET /` error when trying to initiate local browsersync.
+
 # Generic Parcel Template
 * Uses Sass and the 7-1 Pattern by Hugo Giraudel.
 * Uses the JavaScript Revealing Module Pattern.
@@ -9,15 +19,6 @@
 * Added breakpoint mixins for more granular control.
 * Added keyframes, animation, transition and transform mixins to boil down to just a few lines of code.
 * Uses Parcel to bundle, minify, and optimize HTML, CSS and JS.
-
-# Prerequisites
-* yarn package manager
-
-# Getting Started
-* `yarn install` - install dependencies with 
-* `yarn dev` - run development localhost server
-* `yarn build` - build prod files
-* `yarn deploy` - deploy to gh-pages
 
 # Changelog
 * 1.0.0
