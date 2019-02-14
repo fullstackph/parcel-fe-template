@@ -25,6 +25,9 @@
 * Uses Parcel to bundle, minify, and optimize HTML, CSS and JS.
 
 # Changelog
+### 1.1.1
+* Remove `tether` from dependencies
+
 ### 1.1.0
 * Add deploy to `gh-pages` script
 * Windows support with concurrent scripts
