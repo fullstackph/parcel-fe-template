@@ -1,4 +1,4 @@
-var $ = require('jquery')
+import $ from 'jquery'
 
 $(function () {
     AppName.Modules.ThemeModule.init();

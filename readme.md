@@ -27,7 +27,7 @@
 # Changelog
 
 ### 1.1.2
-* Explicit import of some dependencies that rely on window. [(In response to parcel issue #333)](https://github.com/parcel-bundler/parcel/issues/333)
+* Explicit ES6 import on dependencies
 
 ### 1.1.1
 * Remove `tether` from dependencies
